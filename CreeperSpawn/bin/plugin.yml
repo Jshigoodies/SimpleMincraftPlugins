@@ -1,0 +1,8 @@
+name: CreeperSpawn
+version: 1.0
+author: Jshi
+main: jshi.Jason.CreeperSpawn.Main
+
+commands:
+  creeperspawn:
+    usage: /<command>

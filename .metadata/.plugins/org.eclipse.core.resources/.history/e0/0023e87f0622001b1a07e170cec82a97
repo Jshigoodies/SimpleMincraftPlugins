@@ -1,0 +1,9 @@
+package jshi.Jason.CreeperSpawn.commands;
+
+import org.bukkit.command.CommandExecutor;
+
+import org.bukkit.command.Command;
+
+public class CreeperCommand implements CommandExecutor{
+
+}

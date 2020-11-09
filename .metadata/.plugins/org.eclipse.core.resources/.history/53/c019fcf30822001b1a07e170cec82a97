@@ -1,0 +1,13 @@
+package jshi.Jason.CreeperSpawn;
+
+import org.bukkit.command.PluginCommand;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Main extends JavaPlugin{
+	
+	
+	public void OnEnable()
+	{
+		
+	}
+}
