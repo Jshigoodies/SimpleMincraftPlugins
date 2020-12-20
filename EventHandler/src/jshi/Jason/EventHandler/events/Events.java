@@ -40,8 +40,10 @@ public class Events implements Listener{
 	public static void onPlayerThrowEgg(PlayerEggThrowEvent event)
 	{
 		event.setHatching(true);
-		event.setHatchingType(EntityType.CREEPER); //This is an instance variable that is a static final variable from the EntityType class
-		byte num = 10;
+		
+		event.setHatchingType(EntityType.BEE); //This is an instance variable that is a static final variable from the EntityType class
+		
+		byte num = 20;
 		event.setNumHatches(num);
 	}
 
