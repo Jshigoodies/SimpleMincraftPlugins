@@ -1,12 +1,12 @@
 package jshi.Jason.EventHandler.events;
 
 import org.bukkit.Material;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityShootBowEvent;
+import org.bukkit.event.player.PlayerBedEnterEvent;
 import org.bukkit.event.player.PlayerEggThrowEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
@@ -55,6 +55,13 @@ public class Events implements Listener{
 		/*
 		 * Nothing Here
 		 */
+	}
+	
+	@EventHandler
+	public static void onPlayerEnterBed(PlayerBedEnterEvent event)
+	{
+		Player player = event.getPlayer();
+		player.kickPlayer("No sleeping in this Server");
 	}
 
 }
