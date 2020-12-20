@@ -1,10 +1,12 @@
 package jshi.Jason.EventHandler.events;
 
 import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityShootBowEvent;
 import org.bukkit.event.player.PlayerEggThrowEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
@@ -45,6 +47,14 @@ public class Events implements Listener{
 		
 		byte num = 20;
 		event.setNumHatches(num);
+	}
+	
+	@EventHandler
+	public static void onPlayerBowShot(EntityShootBowEvent event)
+	{
+		/*
+		 * Nothing Here
+		 */
 	}
 
 }
