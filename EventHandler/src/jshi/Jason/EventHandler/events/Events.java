@@ -1,9 +1,11 @@
 package jshi.Jason.EventHandler.events;
 
 import org.bukkit.Material;
+import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerEggThrowEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 
@@ -32,6 +34,15 @@ public class Events implements Listener{
 		{
 			player.sendMessage(ChatColor.GOLD + player.getName() + " Found Diamonds!!!");
 		}
+	}
+	
+	@EventHandler
+	public static void onPlayerThrowEgg(PlayerEggThrowEvent event)
+	{
+		event.setHatching(true);
+		event.setHatchingType(EntityType.CREEPER); //This is an instance variable that is a static final variable from the EntityType class
+		byte num = 10;
+		event.setNumHatches(num);
 	}
 
 }
