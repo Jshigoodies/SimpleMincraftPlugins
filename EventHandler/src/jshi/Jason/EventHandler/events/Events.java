@@ -1,8 +1,10 @@
 package jshi.Jason.EventHandler.events;
 
 import org.bukkit.Material;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityShootBowEvent;
@@ -10,6 +12,8 @@ import org.bukkit.event.player.PlayerBedEnterEvent;
 import org.bukkit.event.player.PlayerEggThrowEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
+
+import jshi.Jason.EventHandler.things.Mobs;
 
 import net.md_5.bungee.api.ChatColor;
 
@@ -50,11 +54,12 @@ public class Events implements Listener{
 	}
 	
 	@EventHandler
-	public static void onPlayerBowShot(EntityShootBowEvent event)
+	public static void onBowShot(EntityShootBowEvent event)
 	{
-		/*
-		 * Nothing Here
-		 */
+		//can't figure this fking entity out
+		Entity projectile = new Mobs();
+		projectile.addPassenger(new Mobs());
+		event.setProjectile(projectile);
 	}
 	
 	@EventHandler
