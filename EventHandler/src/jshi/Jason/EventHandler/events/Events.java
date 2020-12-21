@@ -1,13 +1,16 @@
 package jshi.Jason.EventHandler.events;
 
 import org.bukkit.Material;
+import org.bukkit.entity.Arrow;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Skeleton;
+import org.bukkit.entity.Snowball;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityShootBowEvent;
+import org.bukkit.event.entity.ProjectileLaunchEvent;
 import org.bukkit.event.player.PlayerBedEnterEvent;
 import org.bukkit.event.player.PlayerEggThrowEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -53,17 +56,23 @@ public class Events implements Listener{
 		event.setNumHatches(num);
 	}
 	
+	@SuppressWarnings("deprecation")
 	@EventHandler
-	public static void onBowShot(EntityShootBowEvent event)
+	public void onShoot(ProjectileLaunchEvent event) 
 	{
-		Skeleton mob = null;
-		//can't figure this fking entity out
-		if(event.getEntity() instanceof Skeleton)
+		if(event.getEntity() instanceof Arrow) 
 		{
-			mob = (Skeleton) event;
+			Arrow arrow = (Arrow) event.getEntity();
+			if(arrow.getShooter() instanceof Player) 
+			{
+				Player shooter = (Player) arrow.getShooter();
+				if(shooter.getItemInHand().getType() == Material.BOW) 
+				{
+					event.setCancelled(true);
+					shooter.launchProjectile(Snowball.class).setVelocity(arrow.getVelocity());
+				}
+			}
 		}
-		Entity projectile = new Mobs(); //useless
-		event.setProjectile(mob);
 	}
 	
 	@EventHandler
