@@ -4,7 +4,7 @@ import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
-
+import org.bukkit.entity.Skeleton;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityShootBowEvent;
@@ -56,10 +56,14 @@ public class Events implements Listener{
 	@EventHandler
 	public static void onBowShot(EntityShootBowEvent event)
 	{
+		Skeleton mob = null;
 		//can't figure this fking entity out
-		Entity projectile = new Mobs();
-		projectile.addPassenger(new Mobs());
-		event.setProjectile(projectile);
+		if(event.getEntity() instanceof Skeleton)
+		{
+			mob = (Skeleton) event;
+		}
+		Entity projectile = new Mobs(); //useless
+		event.setProjectile(mob);
 	}
 	
 	@EventHandler

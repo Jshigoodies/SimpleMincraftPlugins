@@ -1,0 +1,14 @@
+name: CommandsHandler
+version: 1.0
+author: Jshi
+main: jshi.Jason.CommandsHandler.Main
+api-version: 1.16
+commands:
+  heal:
+    description: Heals player to max health.
+    usage: /<command>
+    aliases: [healing, healme, healmax]
+  feed:
+    description: Feeds player to max saturation.
+    usage: /<command>
+    aliases: [eat, full]
