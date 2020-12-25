@@ -1,0 +1,9 @@
+name: CustomItems
+version: 1.0
+author: Jshi
+main: jshi.Jason.CustomItems.Main 
+api-version: 1.16
+commands:
+  givewand:
+    description: Gives player a custom wand
+    usage: /<command>
