@@ -12,6 +12,7 @@ public class Main extends JavaPlugin{
 		SimpleCommands commands = new SimpleCommands();
 		getCommand("heal").setExecutor(commands);
 		getCommand("feed").setExecutor(commands);
+		getCommand("farmtime").setExecutor(commands);
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[CommandsHandler]: Plugin is Enabled");
 	}
 	

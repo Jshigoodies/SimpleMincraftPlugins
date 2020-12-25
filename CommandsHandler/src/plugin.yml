@@ -12,3 +12,7 @@ commands:
     description: Feeds player to max saturation.
     usage: /<command>
     aliases: [eat, full]
+  farmtime:
+    description: Spawns a specified number of mobs
+    usage: /<command>
+    
