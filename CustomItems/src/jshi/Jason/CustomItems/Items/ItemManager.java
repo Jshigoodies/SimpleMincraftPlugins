@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
-import org.bukkit.inventory.ItemFlag;
-import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.*;
 import org.bukkit.inventory.meta.ItemMeta;
 
 public class ItemManager {
@@ -33,5 +33,12 @@ public class ItemManager {
 		item.setItemMeta(meta);
 		
 		wand = item;
+		
+		//Shaped
+		ShapedRecipe sr = new ShapedRecipe(NamespacedKey.minecraft("wand"), item);
+		sr.shape("B  ", 
+				 " S ", 
+				 "  S");
+		sr.setIngredient('B', Material.BLAZE_POWDER);
 	}
 }
