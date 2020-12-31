@@ -3,6 +3,7 @@ package jshi.Jason.CustomItems.Items;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
@@ -40,5 +41,17 @@ public class ItemManager {
 				 " S ", 
 				 "  S");
 		sr.setIngredient('B', Material.BLAZE_POWDER);
+		sr.setIngredient('S', Material.STICK);
+		Bukkit.getServer().addRecipe(sr);
+		
+		//Shapeless Recipe
+		ShapelessRecipe srless = new ShapelessRecipe(NamespacedKey.minecraft("shapeless_wand"), item);
+		srless.addIngredient(2, Material.BLAZE_POWDER);
+		srless.addIngredient(1, Material.DIAMOND);
+		Bukkit.getServer().addRecipe(srless);
+		
+		//furnace Recipe
+		FurnaceRecipe smelt = new FurnaceRecipe(NamespacedKey.minecraft("smelted_wand"), item, Material.EMERALD, 5.0f, 20); //20 ticks = 10 seconds, the 5.0f is the experience orbs
+		Bukkit.getServer().addRecipe(smelt);
 	}
 }
