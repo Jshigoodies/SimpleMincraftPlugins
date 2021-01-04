@@ -1,0 +1,5 @@
+name: CustomInventory
+version: 1.0
+author: Jshi
+main: jshi.Jason.CustomInventory.Main
+api-version: 1.16
