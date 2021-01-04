@@ -1,7 +1,7 @@
 name: CustomSword
 version: 1.0
 author: Jshi
-main: jshi.Jason.CustomSword.main
+main: jshi.Jason.CustomSword.Main
 api-version: 1.16
 
 

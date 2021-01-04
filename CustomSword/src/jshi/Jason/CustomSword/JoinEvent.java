@@ -9,6 +9,6 @@ public class JoinEvent implements Listener{
 	@EventHandler
 	public static void onJoin(PlayerJoinEvent event)
 	{
-		event.getPlayer().setResourcePack("https://drive.google.com/drive/folders/1XDbXXy9tdFkvnLSjGU2fgQbkg_HMPyIp?usp=sharing");
+		event.getPlayer().setResourcePack("https://www.dropbox.com/sh/f3ie51vsn6pi1wj/AAAsq6jQvAp3e-yF6DHmFF5Ja?dl=1");
 	}
 }
