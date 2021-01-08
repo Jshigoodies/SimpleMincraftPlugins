@@ -1,0 +1,5 @@
+name: pluginTest
+version: 19.09
+author: Jshi
+main: jshi.Jason.plugin.Main
+api-version: 1.16
