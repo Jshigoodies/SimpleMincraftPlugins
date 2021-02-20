@@ -50,7 +50,7 @@ public class Events implements Listener{
 	{
 		event.setHatching(true);
 		
-		event.setHatchingType(EntityType.COW); //This is an instance variable that is a static final variable from the EntityType class
+		event.setHatchingType(EntityType.ARMOR_STAND); //This is an instance variable that is a static final variable from the EntityType class
 		
 		byte num = 20;
 		event.setNumHatches(num);
