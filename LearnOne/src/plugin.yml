@@ -1,0 +1,10 @@
+name: LearnOne
+version: 1.0
+author: Jshi
+main: jshi.Jason.LearnOne.Main
+api-version: 1.16
+commands:
+  Launch:
+    description: Zoooooooooom
+    usage: /<command>
+    aliases: lch
