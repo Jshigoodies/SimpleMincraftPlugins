@@ -29,11 +29,9 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.bukkit.enchantments.Enchantment"/>
     <fullyQualifiedTypeName name="org.bukkit.inventory.ItemFlag"/>
-    <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
     <fullyQualifiedTypeName name="jshi.Jason.CustomItems.Commands.ItemCommands"/>
     <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerInteractEvent"/>
     <fullyQualifiedTypeName name="org.bukkit.event.block.Action"/>
-    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
     <fullyQualifiedTypeName name="org.bukkit.Particle"/>
     <fullyQualifiedTypeName name="jshi.Jason.CustomItems.events.EventManager"/>
     <fullyQualifiedTypeName name="org.bukkit.inventory.ShapedRecipe"/>
@@ -46,4 +44,6 @@
     <fullyQualifiedTypeName name="org.bukkit.inventory.InventoryHolder"/>
     <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
     <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
+    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
 </qualifiedTypeNameHistroy>

@@ -46,11 +46,12 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
-			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\TestPlugin.jar"/>
+			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\LearnOne.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\Event.jar"/>
+			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\Command.jar"/>
+			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\TestPlugin.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CustomSword.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CustomItem.jar"/>
-			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\Command.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CreeperSpawn.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.15.2 Spigot\plugins\CreeperSpawnPlugin.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CreeperSpawnPlugin.jar"/>
