@@ -1,0 +1,10 @@
+name: LearnTwo
+version: 1.0
+author: Jshi
+main: jshi.Jason.LearnTwo.Main
+api-version: 1.16
+
+commands:
+  Doctor:
+    description: HEAL
+    usage: /<command>
