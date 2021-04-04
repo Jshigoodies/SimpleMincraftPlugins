@@ -1,0 +1,10 @@
+name: GodBoots
+version: 1.0
+author: Jshi
+main: jshi.Jason.GodBoots.Main
+api-version: 1.16
+
+commands:
+  GodBoots:
+    description: Gives player op boots
+    usage: /<command>

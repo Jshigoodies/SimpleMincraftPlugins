@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="org.bukkit.Location"/>
     <fullyQualifiedTypeName name="org.bukkit.World"/>
     <fullyQualifiedTypeName name="jshi.Jason.CreeperSpawn.commands.CreeperCommand"/>
-    <fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
     <fullyQualifiedTypeName name="jshi.Jason.EventHandler.events.Events"/>
     <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerMoveEvent"/>
     <fullyQualifiedTypeName name="net.minecraft.server.v1_16_R3.Material"/>
@@ -42,8 +41,16 @@
     <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerJoinEvent"/>
     <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
     <fullyQualifiedTypeName name="org.bukkit.inventory.InventoryHolder"/>
-    <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
-    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
     <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
     <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+    <fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
+    <fullyQualifiedTypeName name="net.md_5.bungee.api.chat.TextComponent"/>
+    <fullyQualifiedTypeName name="net.md_5.bungee.api.chat.ClickEvent"/>
+    <fullyQualifiedTypeName name="net.md_5.bungee.api.chat.ClickEvent.Action"/>
+    <fullyQualifiedTypeName name="net.md_5.bungee.api.chat.HoverEvent"/>
+    <fullyQualifiedTypeName name="net.md_5.bungee.api.chat.HoverEvent.Action"/>
+    <fullyQualifiedTypeName name="net.md_5.bungee.api.chat.ComponentBuilder"/>
+    <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
 </qualifiedTypeNameHistroy>
