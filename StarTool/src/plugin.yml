@@ -4,7 +4,5 @@ author: Jshi
 main: jshi.Jason.StarTool.Main
 api-version: 1.16
 
-# commands:
-#   CommandName:
-#     description: 
-#     usage: /<command>
+commands:
+  StarTool:
