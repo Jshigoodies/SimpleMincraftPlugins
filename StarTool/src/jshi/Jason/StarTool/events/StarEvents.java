@@ -10,5 +10,5 @@ public class StarEvents implements Listener{
 	{
 		plugin = instance;
 	}
-	//don't really need this, it's just a way to acess stuff from the main class. So I should make the outline like this from now on.
+	//don't really need this, it's just a way to access stuff from the main class. So I should make the outline like this from now on.
 }
