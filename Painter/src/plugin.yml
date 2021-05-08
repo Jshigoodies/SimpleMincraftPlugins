@@ -4,3 +4,5 @@ author: Jshi
 main: jshi.Jason.painter.Main
 api-version: 1.16
 
+commands:
+  Paint:

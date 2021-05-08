@@ -7,12 +7,14 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin{
+public class Painter extends JavaPlugin{
 	
 	private List<Player> painters = new ArrayList<Player>();
 	
 	@Override
 	public void onEnable() {
+		this.getCommand("painter").setExecutor(new PaintCommand(this));
+		this.getServer().getPluginManager().registerEvents(new PlayerInteract(this), this);
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[Painter]: Plugin is Enabled");
 	}
 
