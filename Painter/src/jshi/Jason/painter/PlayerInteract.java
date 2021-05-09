@@ -91,6 +91,7 @@ public class PlayerInteract implements Listener{
 					list.get(i).setType(event.getItem().getType());
 				}
 			}
+			list.clear(); //i can't have the same blocks changing. I can add every block to the list and they will never be removed, so i have to do clear() method.
 		}
 		else
 		{
