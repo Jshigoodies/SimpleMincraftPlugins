@@ -7,4 +7,4 @@ api-version: 1.16
 commands:
   changeteam:
     usage: /<command>
-    description: changes team color
+    description: changes team color when wearing leather armor

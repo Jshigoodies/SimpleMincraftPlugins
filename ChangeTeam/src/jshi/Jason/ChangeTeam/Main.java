@@ -143,7 +143,7 @@ public class Main extends JavaPlugin implements Listener{
 		
 		Player player = (Player) event.getWhoClicked();
 		
-		if(event.getSlot() == 0)
+		if(event.getSlot() == 0 && event.getCurrentItem().getType() == Material.BLUE_CONCRETE)
 		{
 			//blue team
 			ItemStack[] armor = player.getEquipment().getArmorContents(); //good to know putting on armor is an IteamStack array
@@ -151,7 +151,7 @@ public class Main extends JavaPlugin implements Listener{
 			player.getEquipment().setArmorContents(armor);
 			player.sendMessage(ChatColor.GOLD + "You changed your team");
 		}
-		if(event.getSlot() == 1)
+		if(event.getSlot() == 1 && event.getCurrentItem().getType() == Material.RED_CONCRETE)
 		{
 			//red team
 			ItemStack[] armor = player.getEquipment().getArmorContents(); //good to know putting on armor is an IteamStack array
@@ -159,7 +159,7 @@ public class Main extends JavaPlugin implements Listener{
 			player.getEquipment().setArmorContents(armor);
 			player.sendMessage(ChatColor.GOLD + "You changed your team");
 		}
-		if(event.getSlot() == 2)
+		if(event.getSlot() == 2 && event.getCurrentItem().getType() == Material.LIME_CONCRETE)
 		{
 			//green team
 			ItemStack[] armor = player.getEquipment().getArmorContents(); //good to know putting on armor is an IteamStack array
@@ -167,7 +167,7 @@ public class Main extends JavaPlugin implements Listener{
 			player.getEquipment().setArmorContents(armor);
 			player.sendMessage(ChatColor.GOLD + "You changed your team");
 		}
-		if(event.getSlot() == 3)
+		if(event.getSlot() == 3 && event.getCurrentItem().getType() == Material.ORANGE_CONCRETE)
 		{
 			//orange team
 			ItemStack[] armor = player.getEquipment().getArmorContents(); //good to know putting on armor is an IteamStack array
@@ -175,7 +175,7 @@ public class Main extends JavaPlugin implements Listener{
 			player.getEquipment().setArmorContents(armor);
 			player.sendMessage(ChatColor.GOLD + "You changed your team");
 		}
-		if(event.getSlot() == 4)
+		if(event.getSlot() == 4 && event.getCurrentItem().getType() == Material.PURPLE_CONCRETE)
 		{
 			//purple team
 			ItemStack[] armor = player.getEquipment().getArmorContents(); //good to know putting on armor is an IteamStack array
@@ -183,7 +183,7 @@ public class Main extends JavaPlugin implements Listener{
 			player.getEquipment().setArmorContents(armor);
 			player.sendMessage(ChatColor.GOLD + "You changed your team");
 		}
-		if(event.getSlot() == 5)
+		if(event.getSlot() == 5 && event.getCurrentItem().getType() == Material.CYAN_CONCRETE)
 		{
 			//cyan team
 			ItemStack[] armor = player.getEquipment().getArmorContents(); //good to know putting on armor is an IteamStack array
@@ -191,7 +191,7 @@ public class Main extends JavaPlugin implements Listener{
 			player.getEquipment().setArmorContents(armor);
 			player.sendMessage(ChatColor.GOLD + "You changed your team");
 		}
-		if(event.getSlot() == 6)
+		if(event.getSlot() == 6 && event.getCurrentItem().getType() == Material.BLACK_CONCRETE)
 		{
 			//black team
 			ItemStack[] armor = player.getEquipment().getArmorContents(); //good to know putting on armor is an IteamStack array
@@ -200,7 +200,7 @@ public class Main extends JavaPlugin implements Listener{
 			player.sendMessage(ChatColor.GOLD + "You changed your team");
 		}
 		
-		if(event.getSlot() == 8)
+		if(event.getSlot() == 8 && event.getCurrentItem().getType() == Material.RED_STAINED_GLASS_PANE)
 		{
 			player.closeInventory();
 		}
