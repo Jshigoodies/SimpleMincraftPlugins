@@ -1,8 +1,8 @@
 name: Painter
 version: 1.0
 author: Jshi
-main: jshi.Jason.painter.Main
+main: jshi.Jason.painter.Painter
 api-version: 1.16
 
 commands:
-  Paint:
+  painter:

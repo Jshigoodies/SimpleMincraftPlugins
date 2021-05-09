@@ -10,10 +10,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Painter extends JavaPlugin{
 	
 	private List<Player> painters = new ArrayList<Player>();
+	private boolean brushType;
 	
 	@Override
 	public void onEnable() {
-		this.getCommand("painter").setExecutor(new PaintCommand(this));
+		this.getCommand("painter").setExecutor(new PaintCommand(this)); //this is just some thought that came up, the reason why we use "this" instead of new Painter class, is because we want the same instance of the painter class throughout the java classes.
 		this.getServer().getPluginManager().registerEvents(new PlayerInteract(this), this);
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[Painter]: Plugin is Enabled");
 	}
@@ -45,4 +46,15 @@ public class Painter extends JavaPlugin{
 		}
 		return true;
 	}
+	
+	//my own
+	public boolean getBrushType()
+	{
+		return brushType;
+	}
+	public void setBrushType(boolean _brushType)
+	{
+		brushType = _brushType;
+	}
+	
 }

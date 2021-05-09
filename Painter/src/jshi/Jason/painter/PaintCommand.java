@@ -32,13 +32,23 @@ public class PaintCommand implements CommandExecutor{
 			{
 				// remove player
 				plugin.removePainter(player);
-				player.sendMessage(ChatColor.RED + "You are no long painting");
+				player.sendMessage(ChatColor.RED + "You are no longer painting");
 				return true;
 			}
 		}
 		// add painter
 		plugin.addPainter(player); // become an artist
 		player.sendMessage(ChatColor.GREEN + "You are a painter");
+		if(args.length == 1 && args[0].equals("brush"))
+		{
+			plugin.setBrushType(true);
+			player.sendMessage(ChatColor.GREEN + "You are using a brush");
+		}
+		else
+		{
+			plugin.setBrushType(false);
+			player.sendMessage(ChatColor.RED + "You are not using a brush");
+		}
 		return true;
 		
 	}
