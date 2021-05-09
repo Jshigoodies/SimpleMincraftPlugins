@@ -1,0 +1,10 @@
+name: ChangeTeam
+version: 1.0
+author: Jshi
+main: jshi.Jason.ChangeTeam.Main
+api-version: 1.16
+
+commands:
+  changeteam:
+    usage: /<command>
+    description: changes team color
