@@ -1,0 +1,10 @@
+name: Gamble
+version: 1.0
+author: Jshi
+main: jshi.Jason.Gamble.Main
+api-version: 1.16
+
+commands:
+  gamble:
+    description: use diamonds to get cool stuff
+    usage: /<command>
