@@ -55,7 +55,7 @@ public class Main extends JavaPlugin implements Listener{
 			
 			if(player.getInventory().getItemInMainHand().getType().equals(Material.DIAMOND) && player.getInventory().getItemInMainHand().getAmount() >= 3)
 			{
-				player.getInventory().remove(fee);
+				player.getInventory().removeItem(fee);
 				//Spin GUI after fee is payed
 				spin(player);
 				return true;
