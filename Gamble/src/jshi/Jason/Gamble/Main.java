@@ -53,7 +53,7 @@ public class Main extends JavaPlugin{
 			{
 				player.getInventory().remove(fee);
 				//Spin GUI after fee is payed
-				
+				spin(player);
 				return true;
 			}
 			player.sendMessage(ChatColor.RED + "You don't have enough money. You need 3 diamonds to gamble");
@@ -72,11 +72,11 @@ public class Main extends JavaPlugin{
 			item[2] = new ItemStack(Material.DIAMOND, 10);
 			item[3] = new ItemStack(Material.BARRIER, 1);
 			item[4] = new ItemStack(Material.BEDROCK, 1);
-			item[5] = new ItemStack(Material.BEEF, 100);
+			item[5] = new ItemStack(Material.BEEF, 64);
 			item[6] = new ItemStack(Material.DIAMOND, 3);
 			item[7] = new ItemStack(Material.CAKE, 100);
 			item[8] = new ItemStack(Material.CHAIN_COMMAND_BLOCK, 1);
-			item[9] = new ItemStack(Material.END_GATEWAY, 20);
+			item[9] = new ItemStack(Material.END_CRYSTAL, 20);
 			
 			contents = item;
 		}
