@@ -9,6 +9,9 @@ import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -17,7 +20,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import io.netty.util.internal.ThreadLocalRandom;
 
-public class Main extends JavaPlugin{
+public class Main extends JavaPlugin implements Listener{
 	
 	List<Inventory> invs = new ArrayList<Inventory>();
 	public static ItemStack[] contents;
@@ -25,6 +28,7 @@ public class Main extends JavaPlugin{
 	
 	@Override
 	public void onEnable() {
+		this.getServer().getPluginManager().registerEvents(this, this);
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[Gamble]: Plugin is Enabled");
 	}
 
@@ -162,5 +166,16 @@ public class Main extends JavaPlugin{
 			}
 			
 		}.runTaskTimer(this, 0 , 1); //plugin, delay, period. The plugin is in "this" class | don't wait, start a 0 seconds | runs everything over again every 1 tick
+	}
+	
+	@EventHandler
+	public void onClick(InventoryClickEvent event)
+	{
+		if(!(invs.contains(event.getInventory())))
+		{	
+			return;
+		}
+		event.setCancelled(true);
+		return;
 	}
 }
