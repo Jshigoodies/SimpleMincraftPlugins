@@ -1,0 +1,11 @@
+name: Skull
+version: 1.0
+author: Jshi
+main: jshi.Jason.Skull.Main
+api-version: 1.16
+
+commands:
+  skull:
+    description: gets skull of players
+    usage: /<command>
+    
