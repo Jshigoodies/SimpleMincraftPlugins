@@ -1,0 +1,9 @@
+name: CustomNPC
+version: 1.0
+author: Jshi
+main: jshi.Jason.CustomNPC.Main
+api-version: 1.16
+
+commands:
+  createnpc:
+  
