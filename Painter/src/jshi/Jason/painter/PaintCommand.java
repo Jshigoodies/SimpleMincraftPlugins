@@ -11,6 +11,7 @@ import org.bukkit.entity.Player;
 public class PaintCommand implements CommandExecutor{
 	
 	private Painter plugin;
+	
 	public PaintCommand(Painter _plugin)
 	{
 		this.plugin = _plugin;
@@ -42,11 +43,19 @@ public class PaintCommand implements CommandExecutor{
 		if(args.length == 1 && args[0].equals("brush"))
 		{
 			plugin.setBrushType(true);
+			plugin.lazyConditionVariable = false;
 			player.sendMessage(ChatColor.GREEN + "You are using a brush");
+		}
+		else if(args.length == 2 && args[0].equalsIgnoreCase("brush") && args[1].equalsIgnoreCase("build"))
+		{
+			plugin.setBrushType(true);
+			plugin.lazyConditionVariable = true;
+			player.sendMessage(ChatColor.GREEN + "You are using a brush building tool");
 		}
 		else
 		{
 			plugin.setBrushType(false);
+			plugin.lazyConditionVariable = false;
 			player.sendMessage(ChatColor.RED + "You are not using a brush");
 		}
 		return true;

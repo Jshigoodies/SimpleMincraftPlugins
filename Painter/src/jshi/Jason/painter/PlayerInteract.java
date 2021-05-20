@@ -84,9 +84,19 @@ public class PlayerInteract implements Listener{
 			list.add(blockFive);
 			list.add(blockSix);
 			
-			for(int i = 0; i<list.size(); i ++)
+			if(!plugin.lazyConditionVariable) //lol
 			{
-				if(!list.get(i).isEmpty()) //make sure it's not fking air
+				for(int i = 0; i<list.size(); i ++)
+				{
+					if(!list.get(i).isEmpty()) //make sure it's not fking air
+					{
+						list.get(i).setType(event.getItem().getType());
+					}
+				}
+			}
+			else //so i can build in minecraft
+			{
+				for(int i = 0; i<list.size(); i ++)
 				{
 					list.get(i).setType(event.getItem().getType());
 				}

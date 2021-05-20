@@ -11,7 +11,7 @@ public class Painter extends JavaPlugin{
 	
 	private List<Player> painters = new ArrayList<Player>();
 	private boolean brushType;
-	
+	public boolean lazyConditionVariable = false;
 	@Override
 	public void onEnable() {
 		this.getCommand("painter").setExecutor(new PaintCommand(this)); //this is just some thought that came up, the reason why we use "this" instead of new Painter class, is because we want the same instance of the painter class throughout the java classes.

@@ -44,7 +44,7 @@ public class NPC {
 			PlayerConnection connection = ((CraftPlayer) player).getHandle().playerConnection;
 			connection.sendPacket(new PacketPlayOutPlayerInfo(PacketPlayOutPlayerInfo.EnumPlayerInfoAction.ADD_PLAYER, npc));
 			connection.sendPacket(new PacketPlayOutNamedEntitySpawn(npc));
-			connection.sendPacket(new PacketPlayOutEntityHeadRotation(npc, (byte) (npc.yaw*256/260)));
+			connection.sendPacket(new PacketPlayOutEntityHeadRotation(npc, (byte) (npc.yaw*256/360)));
 		}
 	}
 	
