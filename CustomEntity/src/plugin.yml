@@ -1,0 +1,5 @@
+name: CustomEntity
+version: 1.0
+author: Jshi
+main: jshi.Jason.CustomEntity.Main
+api-version: 1.16
