@@ -5,16 +5,16 @@ import org.bukkit.craftbukkit.v1_16_R3.CraftWorld;
 
 import net.md_5.bungee.api.ChatColor;
 import net.minecraft.server.v1_16_R3.ChatComponentText;
-import net.minecraft.server.v1_16_R3.EntitySkeleton;
 import net.minecraft.server.v1_16_R3.EntityTypes;
+import net.minecraft.server.v1_16_R3.EntityZombie;
 
-public class CustomEntitySkeleton extends EntitySkeleton{
-
-	public CustomEntitySkeleton(Location loc) {
-		super(EntityTypes.SKELETON, ((CraftWorld) loc.getWorld()).getHandle());
+public class CustomEntityZombie extends EntityZombie{
+	public CustomEntityZombie(Location loc)
+	{
+		super(EntityTypes.ZOMBIE,  ((CraftWorld) loc.getWorld()).getHandle());
 		this.setPosition(loc.getX(), loc.getY(), loc.getZ());
-		this.setCustomName(new ChatComponentText(ChatColor.RED + "" + ChatColor.BOLD + "CUSTOM_MOB"));
+		this.setCustomName(new ChatComponentText(ChatColor.DARK_RED + "Zombie :D:D:D:D:D"));
 		this.setCustomNameVisible(true);
+		this.glowing = true;
 	}
-
 }
