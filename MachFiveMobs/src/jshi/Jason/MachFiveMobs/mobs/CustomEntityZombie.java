@@ -15,6 +15,10 @@ public class CustomEntityZombie extends EntityZombie{
 		this.setPosition(loc.getX(), loc.getY(), loc.getZ());
 		this.setCustomName(new ChatComponentText(ChatColor.DARK_RED + "Zombie :D:D:D:D:D"));
 		this.setCustomNameVisible(true);
-		this.glowing = true;
+		this.glowing = false;
+		
+		this.canPickUpLoot = true;
+		this.setSprinting(true);
+		this.D = 100.0;
 	}
 }

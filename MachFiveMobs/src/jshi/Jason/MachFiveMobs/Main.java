@@ -35,6 +35,9 @@ public class Main extends JavaPlugin implements Listener{
 		{
 			return;
 		}
+		
+		e.getEntity().setPersistent(true);
+		
 //		CustomEntitySkeleton fastSkele = new CustomEntitySkeleton(e.getLocation());
 //		WorldServer world = ((CraftWorld) e.getEntity().getWorld()).getHandle();
 //		world.addEntity(fastSkele);
@@ -58,5 +61,5 @@ public class Main extends JavaPlugin implements Listener{
 			return true;
 		}
 		return false;
-	}
+	}	
 }
