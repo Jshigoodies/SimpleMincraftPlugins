@@ -5,6 +5,6 @@ main: jshi.Jason.KitPVP.Main
 api-version: 1.16
 
 commands:
-  kit pvp:
+  kit:
     description: gives player a fighting kit
     usage: /<command>
