@@ -1,0 +1,10 @@
+name: KitPVP
+version: 1.0
+author: Jshi
+main: jshi.Jason.KitPVP.Main
+api-version: 1.16
+
+commands:
+  kit pvp:
+    description: gives player a fighting kit
+    usage: /<command>
