@@ -1,0 +1,12 @@
+reload: # these are keys
+  message: 
+    - "&a&lReloaded RandomBlock!"
+    - "&c&lHave fun!"
+    - "&c&lMade by Jshi :D"
+
+block:
+  DIRT:
+    - GOLD
+    - STONE
+    - GRASS
+    - EGG
