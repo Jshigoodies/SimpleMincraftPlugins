@@ -1,10 +1,10 @@
 name: RandomBlock
 version: 1.0
 author: Jshi
-main:
+main: jshi.Jason.RandomBlock.Main
 api-version: 1.16
 
 commands:
   randomblock:
-  
+
   
