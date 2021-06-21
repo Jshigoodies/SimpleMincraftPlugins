@@ -75,7 +75,7 @@ public class Main extends JavaPlugin implements Listener{
 				for(String i : this.getConfig().getStringList("blocks." + key))
 				{
 					try {
-						item = new ItemStack(Material.matchMaterial(i), r.nextInt(16));
+						item = new ItemStack(Material.matchMaterial(i), r.nextInt(16) + 1);
 					}
 					catch(Exception e)
 					{

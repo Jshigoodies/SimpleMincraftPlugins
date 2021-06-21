@@ -46,6 +46,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\RandomBlock.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\KitPVP.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\MachFiveMobs.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CustomEntity.jar"/>
@@ -65,7 +66,6 @@
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CustomItem.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CreeperSpawn.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.15.2 Spigot\plugins\CreeperSpawnPlugin.jar"/>
-			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CreeperSpawnPlugin.jar"/>
 		</list>
 	</section>
 	<section name="BuildPathsPropertyPage">
@@ -89,5 +89,16 @@
 			<item key="DIALOG_Y_ORIGIN" value="195"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
 	</section>
 </section>

@@ -4,7 +4,7 @@ reload: # these are keys
     - "&c&lHave fun!"
     - "&c&lMade by Jshi :D"
 
-block:
+blocks:
   DIRT:
     - GOLD
     - STONE
