@@ -20,7 +20,7 @@ public class Main extends JavaPlugin implements Listener{
 	@Override
 	public void onEnable() {
 		this.data = new DataManager(this);
-		getCommand("diamonds").setExecutor(new AmountDia(this.data));
+		getCommand("diamonds").setExecutor(new AmountDia(this, data));
 		this.getServer().getPluginManager().registerEvents(this, this);
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[DiamondCounter]: Plugin is Enabled");
 	}
@@ -45,12 +45,13 @@ public class Main extends JavaPlugin implements Listener{
 			}
 			int amount = 0;
 			
-			if(this.data.getConfig().contains("players." + player.getUniqueId().toString() + ".total"))
+			if(this.data.getConfig().contains("players." + player.getName()))
 			{
-				amount = this.data.getConfig().getInt("players." + player.getUniqueId().toString() + ".total");
+				amount = this.data.getConfig().getInt("players." + player.getName());
 			}
 			
-			data.getConfig().set("players." + player.getUniqueId().toString() + ".total", (amount + 1)); //it will write this
+			//data.getConfig().set("players." + player.getUniqueId().toString() + ".total", (amount + 1)); //it will write this
+			data.getConfig().set("players." + player.getName(), (amount + 1));
 			data.saveConfig();
 		}
 	}
