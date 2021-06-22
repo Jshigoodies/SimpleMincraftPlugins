@@ -65,7 +65,7 @@ public class AmountDia implements CommandExecutor{
 				break;
 			}
 		}
-		return w;
+		return w + " diamonds!";
 		
 	}
 	
@@ -80,41 +80,39 @@ public class AmountDia implements CommandExecutor{
 				setList();
 				if(args.length == 1)
 				{
-					//so i can check for online people too
-					List<Player> playerList = player.getWorld().getPlayers();
-					if(playerList.size() > masterList.size())
-					{
-						masterList = playerList;
-					}
+//					//so i can check for online people too
+//					//masterList = player.getWorld().getPlayers();
+//					
+//					
+//					//search for the player's name
+//					for(int i = 0; i < masterList.size(); i++)
+//					{
+//						if(masterList.get(i).getName().equalsIgnoreCase(args[0]))
+//						{
+//							index = i;
+//							break;
+//						}
+//					}
+//					//cannot find player
+//					if(index == -1)
+//					{
+//						player.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "player not found");
+//					}
 					
-					//search for the player's name
-					for(int i = 0; i < masterList.size(); i++)
-					{
-						if(masterList.get(i).getName().equalsIgnoreCase(args[0]))
-						{
-							index = i;
-							break;
-						}
-					}
-					//cannot find player
-					if(index == -1)
-					{
-						player.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "player not found");
-					}
-					else
-					{
-						//get the specific player amount of diamonds
-						String w = findElement(player.getName());
-						player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + w + " diamonds!");
-						return true;
-					}
+					
+					//get the specific player amount of diamonds
+					String w = findElement(args[0]);
+					player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + w);
+					return true;
 					
 				}
 				else
 				{
 					//int amount = this.data.getConfig().getInt("player." + player.getName()); // why this not fking work idk
+					
+					//get yourself amount of diamonds
 					String w = findElement(player.getName());
-					player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + w + " diamonds!");
+					player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + w);
 					return true;
 				}
 			}
