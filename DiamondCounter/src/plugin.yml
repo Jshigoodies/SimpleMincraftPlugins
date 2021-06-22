@@ -3,3 +3,7 @@ version: 1.0
 author: Jshi
 main: jshi.Jason.DiamondCounter.Main
 api-version: 1.17
+
+commands:
+  diamonds:
+    description: Number of diamond ores you mined

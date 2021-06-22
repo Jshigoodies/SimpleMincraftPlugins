@@ -29,7 +29,7 @@ public class DataManager {
 	{
 		if(this.configFile == null)
 		{
-			this.configFile = new File(this.plugin.getDataFolder(), "data.yml"); //create
+			this.configFile = new File(this.plugin.getDataFolder(), "data.yml"); //create Folder
 		}
 		
 		this.dataConfig = YamlConfiguration.loadConfiguration(this.configFile); //loads the data file
