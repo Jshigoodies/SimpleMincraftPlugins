@@ -28,8 +28,6 @@
     <fullyQualifiedTypeName name="org.bukkit.inventory.ItemStack"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="org.bukkit.World"/>
-    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
-    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="org.bukkit.craftbukkit.libs.jline.internal.Log.Level"/>
     <fullyQualifiedTypeName name="java.util.logging.Level"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
 </qualifiedTypeNameHistroy>
