@@ -29,14 +29,10 @@ public class Bot extends ListenerAdapter{
 	
 	//i know this looks stupid, but I'm literally open to suggestions on how to make discord and minecraft work together
 	
-	public Bot()
-	{
-		setUp(); 
-	}
-	
-	public void setPlugin(Main main)
+	public Bot(Main main)
 	{
 		plugin = main;
+		setUp(); 
 	}
 	
 	public void setUp()
@@ -62,7 +58,7 @@ public class Bot extends ListenerAdapter{
 		//done building
 		
 		jda.getPresence().setStatus(OnlineStatus.DO_NOT_DISTURB);
-		jda.getPresence().setActivity(Activity.playing("~diamonds or ~death"));
+		jda.getPresence().setActivity(Activity.playing(":c"));
 		
 		input.close();
 		

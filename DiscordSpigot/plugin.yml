@@ -1,7 +1,7 @@
 name: DiamondCounter
 version: 1.0
 author: Jshi
-main: jshi.Jason.DiamondCounter.Main
+main: jshi.Jason.DiscordSpigot.Main
 api-version: 1.17
 
 commands:
