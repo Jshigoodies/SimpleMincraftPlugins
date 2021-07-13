@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="net.minecraft.server.v1_16_R3.EntityPig"/>
-    <fullyQualifiedTypeName name="org.bukkit.Location"/>
-    <fullyQualifiedTypeName name="org.bukkit.inventory.meta.ItemMeta"/>
-    <fullyQualifiedTypeName name="org.bukkit.inventory.ItemFlag"/>
-    <fullyQualifiedTypeName name="org.bukkit.inventory.meta.BlockStateMeta"/>
-    <fullyQualifiedTypeName name="org.bukkit.block.Banner"/>
     <fullyQualifiedTypeName name="org.bukkit.DyeColor"/>
     <fullyQualifiedTypeName name="org.bukkit.block.banner.Pattern"/>
     <fullyQualifiedTypeName name="org.bukkit.block.banner.PatternType"/>
@@ -40,13 +34,11 @@
     <fullyQualifiedTypeName name="jshi.Jason.DiamondCounter.Files.DataManagerTwo"/>
     <fullyQualifiedTypeName name="org.bukkit.event.entity.EntityDeathEvent"/>
     <fullyQualifiedTypeName name="net.dv8tion.jda.api.hooks.ListenerAdapter"/>
-    <fullyQualifiedTypeName name="net.dv8tion.jda.api.JDA"/>
     <fullyQualifiedTypeName name="javax.security.auth.login.LoginException"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="net.dv8tion.jda.api.JDABuilder"/>
     <fullyQualifiedTypeName name="net.dv8tion.jda.api.OnlineStatus"/>
-    <fullyQualifiedTypeName name="net.dv8tion.jda.api.entities.Activity"/>
     <fullyQualifiedTypeName name="net.dv8tion.jda.api.events.ReadyEvent"/>
     <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
     <fullyQualifiedTypeName name="net.dv8tion.jda.api.entities.Guild"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="jshi.Jason.DiamondCounter.Commands.StartBot"/>
     <fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
     <fullyQualifiedTypeName name="jshi.Jason.DiamondCounter.bot.Bot"/>
+    <fullyQualifiedTypeName name="jshi.Jason.DiscordSpigot.Files.DataManagerTwo"/>
+    <fullyQualifiedTypeName name="jshi.Jason.DiscordSpigot.Main"/>
+    <fullyQualifiedTypeName name="jshi.Jason.DiscordSpigot.Files.DataManager"/>
+    <fullyQualifiedTypeName name="jshi.Jason.DiscordSpigot.Commands.AmountDia"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.entities.Activity.Emoji"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.JDA"/>
+    <fullyQualifiedTypeName name="net.dv8tion.jda.api.entities.Activity"/>
+    <fullyQualifiedTypeName name="jshi.Jason.DiscordSpigot.bot.Bot"/>
 </qualifiedTypeNameHistroy>

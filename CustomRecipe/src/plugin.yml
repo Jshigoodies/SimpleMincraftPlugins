@@ -1,0 +1,5 @@
+name: CustomRecipe
+version: 1.0
+author: Jshi
+main: jshi.Jason.CustomRecipe.Main
+api-version: 1.17

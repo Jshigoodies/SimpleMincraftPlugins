@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-1.8"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Jshi\Desktop\JDA_discord_bot"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Jshi\Desktop\WorkSpace"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -47,6 +47,7 @@
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
 			<item value="C:\Users\Jshi\Desktop\McServer\1.17 Spigot\plugins\DiamondCounter.jar"/>
+			<item value="C:\Users\Jshi\Desktop\McServer\1.17 Spigot\plugins\DiscordSpigot.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\RandomBlock.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\KitPVP.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\MachFiveMobs.jar"/>
@@ -65,7 +66,6 @@
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\TestPlugin.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CustomSword.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CustomItem.jar"/>
-			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CreeperSpawn.jar"/>
 		</list>
 	</section>
 	<section name="BuildPathsPropertyPage">
