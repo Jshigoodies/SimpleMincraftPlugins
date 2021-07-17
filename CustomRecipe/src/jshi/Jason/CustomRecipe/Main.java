@@ -14,6 +14,7 @@ public class Main extends JavaPlugin{
 	@Override
 	public void onEnable() {
 		Bukkit.addRecipe(getRecipe());
+		Bukkit.addRecipe(getPickaxeRecipe());
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[CustomRecipe]: Plugin is Enabled");
 	}
 
@@ -49,8 +50,8 @@ public class Main extends JavaPlugin{
 		NamespacedKey key = new NamespacedKey(this, "emerald_pickaxe");
 		
 		ShapedRecipe recipe = new ShapedRecipe(key, item);
-		recipe.shape("EEE", "TET", " T ");
-		recipe.setIngredient('T', Material.GHAST_TEAR);
+		recipe.shape("EEE", " S ", " S ");
+		recipe.setIngredient('S', Material.STICK);
 		recipe.setIngredient('E', Material.EMERALD_BLOCK);
 		
 		return recipe;

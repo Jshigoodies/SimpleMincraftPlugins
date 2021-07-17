@@ -1,0 +1,8 @@
+name: Stats
+version: 1.0
+author: Jshi
+main: jshi.Jason.Stats.Main
+api-version: 1.17
+
+commands:
+  mystats:
