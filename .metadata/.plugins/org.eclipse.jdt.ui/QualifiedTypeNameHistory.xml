@@ -49,8 +49,6 @@
     <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
     <fullyQualifiedTypeName name="org.bukkit.inventory.meta.ItemMeta"/>
     <fullyQualifiedTypeName name="org.bukkit.enchantments.Enchantment"/>
-    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
-    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
     <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
     <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
     <fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
     <fullyQualifiedTypeName name="org.bukkit.command.Command"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
 </qualifiedTypeNameHistroy>

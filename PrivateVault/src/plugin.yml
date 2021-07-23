@@ -1,0 +1,8 @@
+name: PrivateVault
+version: 1.0
+author: Jshi
+main: jshi.Jason.PrivateVault.Main
+api-version: 1.17
+
+commands:
+  pv:

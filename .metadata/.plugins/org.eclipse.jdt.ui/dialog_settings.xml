@@ -46,6 +46,8 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Jshi\Desktop\McServer\1.17.1 Spigot\plugins\Stats.jar"/>
+			<item value="C:\Users\Jshi\Desktop\McServer\1.17 Spigot\plugins\Stats.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.17 Spigot\plugins\CustomRecipe.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.17 Spigot\plugins\DiamondCounter.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.17 Spigot\plugins\DiscordSpigot.jar"/>
@@ -64,8 +66,6 @@
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\LearnTwo.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\LearnOne.jar"/>
 			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\Command.jar"/>
-			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\TestPlugin.jar"/>
-			<item value="C:\Users\Jshi\Desktop\McServer\1.16.4 Spigot\plugins\CustomSword.jar"/>
 		</list>
 	</section>
 	<section name="BuildPathsPropertyPage">
